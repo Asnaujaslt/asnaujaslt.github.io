@@ -1,0 +1,200 @@
+html {
+  scroll-padding-top: 75.6px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #363333;
+  color: white;
+  padding: 20px 30px;
+  position: sticky;
+  top: 0;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding-right: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+.Title_about_us {
+ text-align: center;
+ padding: 5px;
+}
+
+.about_us_maincontainer {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.boxes {
+  flex: 1;
+  padding: 10px;
+  border: 5px solid #1c0755;
+  border-radius: 10px;
+  background-color: darkgray;
+}
+
+
+
+
+.title_acomplish{
+  text-align: center;
+  padding: 5px;
+}
+
+.achievements {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+
+.boxesagain {
+  flex: 1;
+  padding: 5px 5px;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 225px;
+}
+
+.acheiimages{
+ max-width: 100%;
+ height: auto;
+ height: 175px; 
+}
+
+.TEXTINACHEI{
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+.shop_title{
+  text-align: center;
+  padding: 5px;
+}
+
+
+.Shop_flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.boxesagainagain {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: black solid 5px;
+}
+
+.cubeimg {
+  max-width: 100%;
+  max-height: auto;
+}
+
+
+
+.linksfornoreason {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.linksfornoreason :hover{
+  text-decoration: underline;
+}
+
+
+.exploremorelink {
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+}
+
+.exploremorelink a {
+  text-decoration: none;
+}
+
+
+
+.Reviewstitle {
+  text-align: center;
+ padding: 5px;
+}
+
+.Reviewscontainer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.boxesagaaain {
+  width: 50%;
+  height: auto;
+}
+
+
+
+
+
+.end4links {
+  background-color: gray;
+  padding: 20px;
+  border: 4px black solid;
+}
+.end4links ul{
+  gap: 10px;
+  justify-content: space-around;
+  display: flex;
+  list-style: none;
+  font-size: 30px;
+}
+
+.end4links a{
+  color: black;
+  flex: 1;
+  text-decoration: none;
+}
+
+
+.carticon {
+  max-width: 30px;
+  height: auto;
+}
