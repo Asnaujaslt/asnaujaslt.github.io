@@ -1,0 +1,52 @@
+html {
+  background-color: darkgray;
+  scroll-padding-top: 75.6px;
+}
+p {
+    font-family:'Open Sans';
+    font-size: 30px;
+}
+
+a {
+    font-family:'Open Sans';
+    font-size: 30px;
+}
+
+h4 {
+    
+    font-family:'Open Sans';
+    font-size: 30px;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #363333;
+  color: white;
+  padding: 20px 30px;
+  position: sticky;
+  top: 0;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding-right: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.carticon {
+  max-width: 30px;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
